@@ -6,7 +6,7 @@ The goal is not a model that looks good in-sample. It is a workflow that tells y
 
 ## What's inside
 
-| Module | Purpose |
+| Module | Purpose | 
 |---|---|
 | `tsformer/data.py` | synthetic returns with volatility clustering and weak regime-dependent structure; causal features; windowing; expanding walk-forward folds with an optional gap |
 | `tsformer/model.py` | compact Transformer encoder (pre-norm, learned positional embedding, last-step read-out) |
